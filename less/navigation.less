@@ -1,1 +1,33 @@
 // Navigation code here
+nav {
+    max-width: 100vw;
+    width: 100%;
+
+
+    
+    .navWrapper {
+        .deskMaxWidth();
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .navLinks {
+            width: 60%;
+            font-size: 1.6rem;
+            .flexin(@justify:space-around);
+
+            @media @phone {
+                width: 90%;
+            } //end media
+
+            a {
+                color: @river-bend;
+            }
+        }
+        a {
+            text-decoration: none;
+            margin: 1% 0;
+        }
+    
+    }
+}
