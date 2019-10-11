@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -173,7 +176,7 @@ nav .navWrapper {
   align-items: center;
 }
 nav .navWrapper .navLinks {
-  width: 75%;
+  width: 60%;
   font-size: 1.6rem;
   display: flex;
   justify-content: space-around;
@@ -183,6 +186,7 @@ nav .navWrapper .navLinks a {
 }
 nav .navWrapper a {
   text-decoration: none;
+  margin: 1% 0;
 }
 footer {
   color: #22283B;
