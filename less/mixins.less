@@ -1,1 +1,25 @@
 // Mixins Here
+.deskMaxWidth() {
+    max-width: 800px;
+    width: 100%;
+}
+
+.flexin(@display: flex, @justify: center){
+    display: @display;
+    justify-content: @justify;
+}
+.customButton(@bgColor: @btn-bg-color, @txtColor: @wild-sand) {
+    background: @bgColor;
+    color: @txtColor;
+    border: none;
+    border-radius: 1px;
+    font-size: 1.5rem;
+    padding: 4%;
+    cursor: pointer;
+
+    &:hover {
+        background: @txtColor;
+        color: @bgColor;
+        border: 1px solid @bgColor;
+    }
+}

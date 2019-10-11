@@ -61,8 +61,7 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .flexin();
 
     @media @phone {
       flex-direction: column-reverse;
@@ -86,16 +85,14 @@
       }
 
       .btn {
-        background: @btn-bg-color;
-        color: @wild-sand;
-        border: none;
-        border-radius: 1px;
-        font-size: 1.5rem;
-        padding: 4%;
+        .customButton();
 
         @media @phone {
           width: 100%;
         }
+      }
+      form {
+        display: none;
       }
     }
 

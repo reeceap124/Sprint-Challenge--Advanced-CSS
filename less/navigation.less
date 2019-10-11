@@ -6,8 +6,7 @@ nav {
 
     
     .navWrapper {
-        max-width: 800px;
-        width: 100%;
+        .deskMaxWidth();
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -15,8 +14,7 @@ nav {
         .navLinks {
             width: 60%;
             font-size: 1.6rem;
-            display: flex;
-            justify-content: space-around;
+            .flexin(@justify:space-around);
 
             @media @phone {
                 width: 90%;
@@ -25,9 +23,6 @@ nav {
             a {
                 color: @river-bend;
             }
-        }
-        h1 {
-            
         }
         a {
             text-decoration: none;

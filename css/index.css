@@ -278,11 +278,20 @@ footer {
   border-radius: 1px;
   font-size: 1.5rem;
   padding: 4%;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background: #F6F6F6;
+  color: #22283A;
+  border: 1px solid #22283A;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
   }
+}
+.home .walk .walk-text form {
+  display: none;
 }
 .home .walk .walk-img {
   width: 46%;
